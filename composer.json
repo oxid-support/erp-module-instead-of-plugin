@@ -1,0 +1,27 @@
+{
+    "name": "oxid-support/erp-plugin-module",
+    "description": "Use modules instead of plugins.",
+    "type": "oxideshop-module",
+    "keywords": ["oxid", "modules", "eShop"],
+    "homepage": "https://www.oxid-esales.com/en/home.html",
+    "license": ["GPL-3.0-only"],
+    "authors": [
+        {
+            "name":  "OXID Support",
+            "email": "support@oxid-esales.com"
+        }
+    ],
+    "extra": {
+        "oxideshop": {
+            "target-directory": "oxid-support/erp-plugin-module"
+        }
+    },
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "OxidSupport\\ErpPluginModule\\": "../../../source/modules/oxid-support/erp-plugin-module"
+        }
+    }
+}
