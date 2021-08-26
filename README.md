@@ -5,8 +5,8 @@ Example project for developing a module instead of ERP plugins.
 
 ### Benefits:
 - Since the WSDL gets built dynamically, own methods can be registered and are listed in the WSDL with their specs. 
-- Because of the listed specs of the own methods in the WSDL, the global plugin method doesn't need to be used anymore, 
-  which, which means that the parameters of the plugins don't need to be documented somewhere else.
+- Because of the listed specs of the own methods in the WSDL, the global plugin method doesn't need to be used anymore,  
+  which means that the parameters of the plugins don't need to be documented somewhere else.
 - Custom modules aren't affected during a shop update, the ERP directory, with its folder is. Custom plugins, stored in 
 ERP module directory, are doomed to be overwritten.
   
@@ -19,9 +19,10 @@ ERP module directory, are doomed to be overwritten.
 # Installation
 ```shell
 composer config repositories.oxid-support/erp-plugin-module vcs https://github.com/oxid-support/erp-module-instead-of-plugin.git
-composer require oxid-support/erp-plugin-module:"dev-master as 1.0.x-dev"
+composer require oxid-support/erp-plugin-module
 ```
-Activate the module _ERP Plugin as module example_.
+Activate the module _ERP Plugin as module example.
+
 # Notes
 
 Since the WSDL file is cached at multiple places, make sure the cache is deactivated during the development.
