@@ -5,10 +5,9 @@ namespace OxidSupport\ErpPluginModule\Gateway;
 
 class Example extends Example_parent
 {
-    public function OXERPGetMyErpType($parameters)
+    public function ExampleModuleAsPlugin($parameters)
     {
-        var_dump($parameters);exit;
-        //$where = ''; //enter condition here
-        //return $this->_export(\MyModule\MyErpInterface\Core\ErpType::class, $where);
+        var_dump($parameters);
+        exit;
     }
 }
