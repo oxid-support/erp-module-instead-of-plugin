@@ -43,7 +43,7 @@ Request
    <soapenv:Header/>
    <soapenv:Body>
       <oxer:OxidSupportExampleModulePlugin>
-         <oxer:sSessionID>$sessionId</oxer:sSessionID>
+         <oxer:sSessionID>a7f484ac86c02ab206746e2a4e4211a8</oxer:sSessionID>
          <oxer:identifier>Value A</oxer:identifier>
       </oxer:OxidSupportExampleModulePlugin>
    </soapenv:Body>
